@@ -1,0 +1,107 @@
+/*Color Theme Swatches in Hex*/
+/*Testando paleta de cores das aulas da disciplina: Elementos de Interface
+
+cores selecionadas utilizando a ferramenta: color.adobe.com
+
+.cor1 { color: #353F40; }
+.texto -> { color: #0C260E; }
+.cor2 { color: #A69F92; }
+.background -> { color: #D9D0C1; }
+.cor3 { color: #8C564A; }
+*/
+
+/*
+    font-weight: normal;
+    font-style: normal;
+
+    line-height: normal;
+
+    text-align: justify;
+    text-indent: normal;
+    text-decoration: normal;
+*/
+
+html {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size : 18px;
+
+    background:  #D9D0C1;
+    color: #0C260E;
+}
+
+#zen-intro header {
+    background-color: #0C260E;
+    color: #D9D0C1;
+    
+}
+
+#zen-intro header h1, #zen-intro header h2 {
+    display: inline-block;
+
+}
+
+#zen-intro header h1 {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+h1, h2, h3 {text-align: center;}
+
+h1 {font-size: 1.8rem;}
+h2 {font-size: 1.4rem;}
+h3 {font-size: 1.2rem;}
+
+p {
+    text-indent: 1.33em;
+}
+
+.main p {
+    line-height: 1.5;
+}
+
+.page-wrapper {
+    width: 80%;
+    max-width: 1280px;
+    margin: auto;
+}
+
+.summary {
+    text-align: center;
+}
+
+#zen-intro {
+    height: 550px;
+}
+
+#design-archives {
+    /*Utilizamos o comando [display: none;] para que o conteúdo em que ele se aplica, não seja renderizado na página
+     (não fica disponivel para visualização na superfície da página). */
+    display: none;
+}
+
+abbr {
+    /* Quando declarado no abbr, torna as abreviações em letra minúscula em estilo caixa alta porem do tamanho original das letras minúsculas */
+    font-variant:small-caps;
+}
+
+.sidebar ul {/* Ao modificar a classe Sidebar abaixo, onde ficam as listas não ordenadas (ul) abaixo do rodapé, contendo alguns links
+    removemos as bullet marks (bolinhas) que ficam ao início de cada list item (li) utilizando o elemento CSS abaixo.*/
+    list-style-type:none;
+}
+
+aside ul li {
+    margin: 1em;
+    text-align:center;
+}
+
+.main footer a{
+    /* No Footer da seção main, estão 5 link exibidos em siglas para serem clicados. Ao mudar o display desse footer para exibição em inline-block
+    e adicionar uma borda (border) com espaçamento interno (padding) criamos uma caixa, contendo o link, onde em toda área da caixa se torna clicável
+    para utilização do link */
+    border: solid 2px #0C260E;
+    padding: 0.5em;
+    display: inline-block;
+}
+.main footer{
+    margin: 4%;
+}
