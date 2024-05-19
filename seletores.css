@@ -1,0 +1,31 @@
+body
+{
+    font-family: Arial;
+    color: white;
+    background-color: rgba(18, 18, 32, 0.904)
+}
+
+h1 + p{
+    font-weight: bold;
+}
+
+a{
+    color: red;
+}
+
+a:hover{
+    color: greenyellow;
+}
+
+p.destaque{
+    font-weight: bold;
+}
+
+.destaque{
+    font-family: Arial;
+}
+
+strong.destaque{
+    color: red;
+    
+}
